@@ -89,15 +89,20 @@ body {
 #discip{
     display: flex;
     margin-top: 5px;
-    font-size: 26px;
+    font-size: 22px;
     color: white;
+}
+.float{
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 #workson,#workson1,#workson2{
     display: none;
     font-size: 25px;
-    margin-top: -29px;
-    margin-bottom: 30px;
-    margin-left: 170px;
+    /* margin-top: -29px; */
+    /* margin-bottom: 30px; */
+    /* margin-left: 170px; */
     color: rgb(66, 192, 246);
 }
 
@@ -584,7 +589,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    margin-top: 40px;
+    text-align: center;
 }
 .foot{
     width: auto;
@@ -837,6 +843,15 @@ footer{
        position: relative;
        top: -330px;
     }
+    #developer{
+        margin-top: 0%;
+    }
+    .foot{
+        bottom: 0%;
+    }
+    .titlecontact{
+        height: 300px;
+    }
 }
 @media screen and (max-width:680px) {
     .page3skills{
@@ -876,6 +891,20 @@ footer{
         position: absolute;
         left: 140px;
         top:  3350px;
+    }
+    #developer{
+        margin-top: 0%;
+    }
+    .foot{
+        bottom: 0%;
+    }
+    .titlecontact{
+        height: 300px;
+    }
+    #contacticons{
+        margin-top: 0px;
+
+        /* margin-bottom: 50px; */
     }
 }
 @media screen and (max-width:520px) {
@@ -956,11 +985,11 @@ footer{
         width: 400px;
     }
     #discip{
-        font-size: 21px;
+        font-size: 18px;
     }
     #workson,#workson1,#workson2{
-        margin-left: 50px;
-        margin-top: -22px;
+        /* margin-left: 50px; */
+        /* margin-top: -22px; */
         font-size: 22px;
     }
     .page2about{
@@ -999,6 +1028,9 @@ footer{
         width: 390px;
         margin-left: 30px;
     }
+    #discip{
+        font-size: 19px;
+    }
     .boxtype{
         width: 410px;
         margin-left: 25px;
@@ -1025,9 +1057,6 @@ footer{
         width: 400px;
         margin-left: 30px;
         justify-content: center;
-    }
-    #discip{
-        font-size: 20px;
     }
     #textpre1,#textc1,#textcre1,#textteam{
         /* width: 100px; */
@@ -1073,11 +1102,11 @@ footer{
         font-size: 30px;
     }
     #discip{
-        font-size: 16.5px;
+        font-size: 15px;
     }
     #workson,#workson1,#workson2{
-        margin-left: 60px;
-        margin-top: -17px;
+        /* margin-left: 60px; */
+        margin-top: -10px;
         font-size: 19px;
     }
     #paracont{
@@ -1135,12 +1164,15 @@ footer{
     .hlonames{
         width: 280px;
     }
+    .wish{
+        font-size: 16px;
+    }
     #discip{
-        font-size: 14px;
+        font-size: 12px;
     }
     #workson,#workson1,#workson2{
-        margin-left: 50px;
-        margin-top: -16px;
+        /* margin-left: 50px; */
+        /* margin-top: -16px; */
         font-size: 16px;
     }
     #img1,#imagepic{
@@ -1204,6 +1236,9 @@ footer{
     }
     #myLinks{
         margin-left: -100px;
+    }
+    .wish{
+        font-size: 15px;
     }
     #img1{
         /* margin-top: -650px; */
